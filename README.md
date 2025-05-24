@@ -64,3 +64,50 @@ Criar uma máquina virtual na Azure
 9 - Quando o processo for concluído, clique em Ir para o recurso para acessar diretamente a nova VM criada.
 
 ![Captura de tela](images/next-steps.png)
+
+## Criar Banco de Dados SQL
+
+# Pré-requisitos
+
+1. É necessário possuir uma assinatura ativa do Azure. Caso ainda não tenha, é possível criar uma conta gratuita.
+2. É preciso utilizar o módulo Az.SQL mais atualizado compatível com a versão atual do PowerShell, ou então a última versão da CLI do Azure. 
+
+Para verificar restrições e compatibilidade, consulte as páginas sobre regiões disponíveis e tipos de assinatura suportados.
+Criação de uma Instância Gerenciada de SQL no Azure
+
+A implantação da Instância Gerenciada de SQL no Azure pode ser feita por meio do portal do Azure, PowerShell ou CLI do Azure.
+# Considerações importantes
+
+* É possível interromper o processo de criação utilizando o portal, o PowerShell, a CLI do Azure ou ferramentas baseadas na API REST.
+
+* A implantação pode sofrer atrasos se houver outras atividades em andamento na mesma sub-rede, como uma restauração demorada ou o redimensionamento de outra instância.
+
+* Para visualizar a instância gerenciada dentro do grupo de recursos, é necessário possuir permissões de leitura nesse grupo.
+
+# Acessando o Portal do Azure
+
+Para iniciar a criação da sua instância pelo portal do Azure, é necessário acessar a plataforma e preencher os dados solicitados na tela de criação da Instância Gerenciada de SQL do Azure.
+
+Siga os passos abaixo:
+
+1 - Acesse o portal do Azure com sua conta.
+
+2 - No menu lateral do portal, clique em SQL do Azure.
+Caso essa opção não apareça de imediato, vá em Todos os serviços e digite SQL do Azure na barra de pesquisa.
+
+3 - Clique em + Criar para abrir a tela Selecionar opção de implantação do SQL.
+Se quiser saber mais sobre esse tipo de instância, clique em Mostrar detalhes no bloco de Instâncias Gerenciadas de SQL.
+
+4 - No menu suspenso, selecione Instância única e, em seguida, clique em Criar para acessar a página onde será configurada a Instância Gerenciada de SQL do Azure.
+
+![Captura de tela](images/select-sql-deploment-page.png)
+
+# Guia Básico 
+
+Em Detalhes da instância gerenciada, selecione Configurar instância gerenciada na seção Computação + armazenamento para abrir a página Computação + armazenamento.
+
+![Captura de tela](images/open-compute-storage-page.png)
+
+Após a conclusão da implantação, navegue até o grupo de recursos para exibir a instância gerenciada:
+
+![Captura de tela](images/azure-sql-managed-instance-resources.png)
