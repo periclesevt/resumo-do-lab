@@ -43,4 +43,24 @@ Criar uma máquina virtual na Azure
 
 4 - Na seção Detalhes da instância, preencha o campo Nome da máquina virtual com myVM e selecione a imagem Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2. Os demais campos podem ser deixados com as configurações padrão.
 
-![Captura de tela](images/diagrama.png)
+![Captura de tela](images/instance-details.png)
+
+5 - Na seção Conta de administrador, digite um nome de usuário (por exemplo, azureuser) e crie uma senha segura. A senha deve ter pelo menos 12 caracteres e atender aos critérios de complexidade exigidos pelo sistema.
+
+![Captura de tela](images/administrator-account.png)
+
+6 - Em Regras de porta de entrada, selecione a opção Permitir portas selecionadas. No menu suspenso, marque as portas RDP (3389) e HTTP (80).
+
+![Captura de tela](images/inbound-port-rules.png)
+
+7 - Mantenha os demais campos com as configurações padrão e clique no botão Examinar + criar, localizado ao final da página.
+
+![Captura de tela](images/review-create.png)
+
+8 - Após a verificação das configurações, clique em Criar para iniciar a implantação da máquina virtual.
+
+![Captura de tela](images/validation.png)
+
+9 - Quando o processo for concluído, clique em Ir para o recurso para acessar diretamente a nova VM criada.
+
+![Captura de tela](images/next-steps.png)
