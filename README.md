@@ -139,3 +139,22 @@ Após a conclusão da implantação, navegue até o grupo de recursos para exibi
 5 - Crie um projeto de Question Answering importando FAQs ou documentos.
 
 6 - Treine e publique modelos customizados em “Custom text classification” ou “Custom entity recognition”.
+
+# Passos para usar o Azure AI Search
+
+1 - Acesse o portal do Azure e crie um recurso Azure AI Search.
+
+2 - Configure um recurso Azure AI Services na mesma região para fornecer as habilidades de enriquecimento.
+
+3 - Crie uma Storage Account com um container de blobs e habilite acesso anônimo para armazenar seus documentos.
+
+4 - Faça o upload dos arquivos (por ex., avaliações de clientes) para o container de blobs.
+
+5 - Use o assistente Import data para definir a fonte de dados, anexar o skillset de AI e gerar o index e o indexer.
+
+6 - Execute e monitore o indexer até que o status indique sucesso na indexação.
+
+7 - Abra o Search explorer no portal para escrever consultas e validar os resultados do seu índice.
+
+8 - Acesse o Knowledge Store na Storage Account para revisar os dados enriquecidos guardados em projeções e tabelas.
+
