@@ -111,3 +111,31 @@ Em Detalhes da instância gerenciada, selecione Configurar instância gerenciada
 Após a conclusão da implantação, navegue até o grupo de recursos para exibir a instância gerenciada:
 
 ![Captura de tela](images/azure-sql-managed-instance-resources.png)
+
+# Passos para usar o Azure Speech Studio
+
+1 - Acesse https://speech.microsoft.com e faça login com sua conta Azure.
+
+2 - Crie ou vincule um recurso de Fala no painel “My resources”.
+
+3 - Copie a Key e o Endpoint em “Keys & Endpoint”.
+
+4 - Teste o Speech-to-Text enviando um áudio ou usando o microfone.
+
+5 - Teste o Text-to-Speech digitando um texto e clicando em “Play”.
+
+6 - Explore recursos avançados como Custom Voice, Speech Translation e SDKs.
+
+# Passos para usar o Azure Language Studio
+
+1 - Acesse https://language.cognitive.azure.com e faça login com sua conta Azure.
+
+2 - Adicione um recurso de Azure AI Language em “+ Add resource”.
+
+3 - Copie a Key e o Endpoint em “Keys and Endpoint”.
+
+4 - Experimente Text Analytics: Detecção de idioma, Sentimento e Extração de frases-chave.
+
+5 - Crie um projeto de Question Answering importando FAQs ou documentos.
+
+6 - Treine e publique modelos customizados em “Custom text classification” ou “Custom entity recognition”.
