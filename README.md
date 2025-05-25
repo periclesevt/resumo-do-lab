@@ -158,3 +158,54 @@ Após a conclusão da implantação, navegue até o grupo de recursos para exibi
 
 8 - Acesse o Knowledge Store na Storage Account para revisar os dados enriquecidos guardados em projeções e tabelas.
 
+# Passos básicos para explorar IA generativa no Azure AI Foundry
+
+1 - Acesse https://ai.azure.com e faça login com suas credenciais do Azure.
+
+2 - Navegue até https://ai.azure.com/managementCenter/allResources e clique em Create para adicionar um novo recurso de AI hub.
+
+3 - No assistente Create a project, informe um nome válido para o projeto e selecione a opção para criar um novo hub.
+
+4 - Expanda Advanced options e defina Subscription, Resource group e uma das regiões suportadas (por exemplo, East US, West Europe).
+
+5 - Aguarde a conclusão da criação do projeto e acesse a página de Overview do seu projeto.
+
+6 - No menu lateral, selecione Playgrounds para experimentar interfaces interativas de IA generativa.
+
+7 - Em Chat playground, clique em Create a deployment, pesquise por gpt-4 e selecione Deploy.
+
+8 - Após o deploy, escolha seu modelo em Deployment e clique em Apply changes para habilitar o uso no playground.
+
+9 - Teste vários prompts em sequência para: planejamento de viagem, sugestões de local, informações de restaurante, uso de fonte externa, contexto adicional e definição de expectativas.
+
+# Passos básicos para explorar o Azure AI Studio
+
+1 - Acesse https://ai.azure.com/studio e faça login com suas credenciais do Azure.
+
+2 - Clique em "Create a new project" e configure o nome, AI hub, resource group e região (como East US).
+
+3 - Após a criação, acesse o projeto e vá para a aba Overview para explorar os recursos disponíveis.
+
+4 - No menu lateral, clique em Playground para testar modelos pré-prontos como GPT e DALL-E.
+
+5 - Experimente gerar imagens, analisar texto e testar modelos de IA generativa com prompts variados.
+
+6 - Navegue até a seção Prompt flow para visualizar e editar fluxos de prompt com entradas e saídas.
+
+7 - Explore seções como Datasets e Deployments para entender a estrutura de dados e como implantar modelos.
+
+# Passos básicos para explorar filtros de conteúdo no Azure AI Studio
+
+1 - Acesse seu projeto no Azure AI Studio em https://ai.azure.com/studio e vá para a seção Playground.
+
+2 - Crie um novo Chat playground com base no modelo GPT-4.
+
+3 - No painel lateral, localize a aba Content filters e ative os filtros desejados (como Hate, Violence, Sexual).
+
+4 - Configure o nível de sensibilidade dos filtros (Low, Medium, High) para personalizar a resposta aos conteúdos gerados.
+
+5 - Envie prompts deliberadamente sensíveis (ex: linguagem imprópria) para verificar a moderação automática.
+
+6 - Observe os avisos ou bloqueios exibidos no painel de resposta e revise os logs de moderação.
+
+7 - Ajuste os filtros conforme as políticas e o público-alvo do seu aplicativo de IA generativa.
